@@ -866,3 +866,7 @@ document.addEventListener('DOMContentLoaded', function () {
   refreshFn()
   unRefreshFn()
 })
+// go down smooth scroll
+$('#go-down').on('click', function () {
+  scrollTo('footer')
+})
