@@ -71,3 +71,15 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 #rightside_config i.fas.fa-cog.fa-spin {
     animation: fa-spin 5s linear infinite ;
 }
+.jg-caption{
+    text-align: center !important;
+}
+.jg-caption-visible::before {
+    content: "⊙ ";
+}
+.fancybox-caption__body::before {
+    content: "⊙ ";
+}
+.img-alt.is-center::before {
+    content: "⊙ ";
+}
