@@ -83,13 +83,6 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 .img-alt.is-center::before {
     content: "⊙ ";
 }
-#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)
-}
-
-#aside-content .card-widget {
-    background: var(--light_bg_color)
-}
 
 #web_bg {
     background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
@@ -126,7 +119,7 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #49b1f5;
+  background-color: #035a93;
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -146,5 +139,10 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 
 ::-moz-selection {
   color: #fff;
-  background-color: #49b1f5;
+  background-color: #035a93;
+}
+
+#aside-content.aside-content > .sticky_layout > .card-widget.card-clock > .card-glass > .card-background {
+    background-color: unset ;
+    box-shadow: unset ;
 }
