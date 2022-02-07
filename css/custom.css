@@ -146,3 +146,13 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
     background-color: unset ;
     box-shadow: unset ;
 }
+
+@font-face{
+  font-family:'FZXKJW' ;  /* 字体名自定义即可 */
+  src:url('/fonts/FZXKJW.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+  font-family: 'FZXKJW', sans-serif;
+}
