@@ -6348,7 +6348,7 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 
 body {
-font-family: HanYiXingKaiFan,-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "STZhongsong", "Lantinghei SC", sans-serif
+font-family: 'HanYiXingKaiFan', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "STZhongsong", "Lantinghei SC", sans-serif
 }
 
 h1#site-title {
