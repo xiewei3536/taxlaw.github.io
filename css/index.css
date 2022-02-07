@@ -6341,17 +6341,5 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
     box-shadow: unset ;
 }
 
-@font-face{
-  font-family:'HanYiXingKaiFan' ;  /* 字体名自定义即可 */
-  src:url('/fonts/HanYiXingKaiFan.ttf'); /* 字体文件路径 */
-  font-display : swap;
-}
 
-body {
-font-family: 'HanYiXingKaiFan', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "STZhongsong", "Lantinghei SC", sans-serif
-}
-
-h1#site-title {
-  font-family: 'HanYiXingKaiFan', sans-serif;
-}
 
